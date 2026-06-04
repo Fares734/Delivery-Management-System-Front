@@ -1,4 +1,4 @@
-# Smart Delivery Management - Android Application
+# Delivery Management System - Android Application
 
 ## Overview
 
