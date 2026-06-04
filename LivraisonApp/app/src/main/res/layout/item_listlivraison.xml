@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/bg_item_card"
+    android:elevation="2dp"
+    android:padding="16dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="10dp">
+
+
+        <TextView
+            android:id="@+id/txtCmd"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="N° CMD : 100245"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#111827"/>
+
+
+        <TextView
+            android:id="@+id/txtEtat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Livrée"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:textColor="#16A34A"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:background="@drawable/bg_badge_green"/>
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/divider_light"
+        android:layout_marginBottom="10dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="6dp">
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/ic_person"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="Client"/>
+
+        <TextView
+            android:id="@+id/txtClient"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Société BS"
+            android:textSize="13sp"
+            android:textColor="#374151"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="6dp">
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/ic_truck_small"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="Livreur"/>
+
+        <TextView
+            android:id="@+id/txtLivreur"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ali Ben Salah"
+            android:textSize="13sp"
+            android:textColor="#374151"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="4dp">
+
+        <ImageView
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:src="@drawable/ic_calendar"
+            android:layout_marginEnd="6dp"
+            android:contentDescription="Date"/>
+
+        <TextView
+            android:id="@+id/txtDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="10:30"
+            android:textSize="12sp"
+            android:textColor="#9CA3AF"/>
+
+
+        <TextView
+            android:id="@+id/txtMontant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="250 DT"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="#3B3DBF"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:background="@drawable/bg_montant_pill"/>
+
+    </LinearLayout>
+
+</LinearLayout>

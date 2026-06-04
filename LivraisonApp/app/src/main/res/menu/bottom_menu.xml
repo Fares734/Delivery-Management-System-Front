@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="Tableau de bord"/>
+
+    <item
+        android:id="@+id/nav_livraisons"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="Livraisons"/>
+
+    <item
+        android:id="@+id/nav_messages"
+        android:icon="@android:drawable/ic_dialog_email"
+        android:title="Messages"/>
+
+    <item
+        android:id="@+id/nav_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Rechercher"/>
+
+</menu>

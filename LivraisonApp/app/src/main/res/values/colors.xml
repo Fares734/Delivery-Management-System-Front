@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="status_green_bg">#E8F5E9</color>
+    <color name="status_green_text">#2E7D32</color>
+    <color name="status_orange_bg">#FFF8E1</color>
+    <color name="status_orange_text">#E65100</color>
+    <color name="status_red_bg">#FFEBEE</color>
+    <color name="status_red_text">#C62828</color>
+    <color name="status_grey_bg">#F0F2F5</color>
+    <color name="status_grey_text">#607080</color>
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="160dp"
+    android:height="120dp"
+    android:viewportWidth="160"
+    android:viewportHeight="120">
+
+    <!-- Speed lines -->
+    <path
+        android:pathData="M10,52 L38,52"
+        android:strokeWidth="4"
+        android:strokeColor="#60A5FA"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M4,64 L32,64"
+        android:strokeWidth="4"
+        android:strokeColor="#3B82F6"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M10,76 L38,76"
+        android:strokeWidth="4"
+        android:strokeColor="#60A5FA"
+        android:strokeLineCap="round"/>
+
+    <!-- Truck body (cargo) -->
+    <path
+        android:pathData="M42,38 L120,38 L120,88 L42,88 Z"
+        android:fillColor="#2563EB"/>
+
+    <!-- Truck cab -->
+    <path
+        android:pathData="M120,50 L148,50 L148,88 L120,88 Z"
+        android:fillColor="#1D4ED8"/>
+
+    <!-- Cab roof curve -->
+    <path
+        android:pathData="M120,50 L138,38 L148,38 L148,50 Z"
+        android:fillColor="#3B82F6"/>
+
+    <!-- Window -->
+    <path
+        android:pathData="M126,42 L145,42 L145,56 L126,56 Z"
+        android:fillColor="#BAE6FD"
+        android:fillAlpha="0.9"/>
+
+    <!-- Window shine -->
+    <path
+        android:pathData="M127,43 L135,43 L135,48 L127,48 Z"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.5"/>
+
+    <!-- Door line -->
+    <path
+        android:pathData="M120,56 L120,88"
+        android:strokeWidth="2"
+        android:strokeColor="#1E40AF"
+        android:strokeLineCap="round"/>
+
+    <!-- Bumper/front -->
+    <path
+        android:pathData="M148,72 L156,72 L156,88 L148,88 Z"
+        android:fillColor="#1E3A8A"/>
+
+    <!-- Headlight -->
+    <path
+        android:pathData="M150,74 L155,74 L155,80 L150,80 Z"
+        android:fillColor="#FCD34D"/>
+
+    <!-- Wheel back -->
+    <path
+        android:pathData="M62,88 m-16,0 a16,16 0 1,0 32,0 a16,16 0 1,0 -32,0"
+        android:fillColor="#1E293B"/>
+    <path
+        android:pathData="M62,88 m-9,0 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0"
+        android:fillColor="#475569"/>
+    <path
+        android:pathData="M62,88 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0"
+        android:fillColor="#94A3B8"/>
+
+    <!-- Wheel front -->
+    <path
+        android:pathData="M134,88 m-13,0 a13,13 0 1,0 26,0 a13,13 0 1,0 -26,0"
+        android:fillColor="#1E293B"/>
+    <path
+        android:pathData="M134,88 m-7,0 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0"
+        android:fillColor="#475569"/>
+    <path
+        android:pathData="M134,88 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0"
+        android:fillColor="#94A3B8"/>
+
+    <!-- Cargo door lines -->
+    <path
+        android:pathData="M55,38 L55,88"
+        android:strokeWidth="1.5"
+        android:strokeColor="#1E40AF"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M68,38 L68,88"
+        android:strokeWidth="1.5"
+        android:strokeColor="#1E40AF"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M42,63 L120,63"
+        android:strokeWidth="1.5"
+        android:strokeColor="#1E40AF"
+        android:strokeLineCap="round"/>
+
+</vector>
